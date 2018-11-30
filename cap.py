@@ -37,24 +37,20 @@ if choice == "3":
             time.sleep(3)
             exit()
     if choice1 == "2":
-        print("You turn left and you see some Nazi zombie ...")
-        time.sleep(10)
-        print("Then a car come out of nowhere with spikes covering it and runs all of them over")
-        time.sleep(3)
-        print("You stand there for about 20 seconds")
-        time.sleep(20)
-        print("Then you contiune down the road and protend that it never happend. As you contiune down the road you finlly find the coffee shop. But....")
-        time.sleep(4)
-        print("There is a sign on the door do you.")
-        print("""
+        pp("You turn left and you see some Nazi zombie ...",10)
+        pp("Then a car come out of nowhere with spikes covering it and runs all of them over",3)
+        pp("You stand there for about 20 seconds",20)
+        pp("Then you contiune down the road and protend that it never happend. As you contiune down the road you finlly find the coffee shop. But....",4)
+        pp("There is a sign on the door do you.",3)
+        pp("""
         1.Read the sign
         2.Try the door.
         """)
         door = input("Want do you do")
         if door == "1":
-            print("You read the sign that says it is closed until 2000")
+            pp("You read the sign that says it is closed until 2000")
             time.sleep(3)
-            print("You say to yourself it would be better to be frozen in ice until then.")
+            pp("You say to yourself it would be better to be frozen in ice until then.")
             time.sleep(5)
             print("It is a hollow victory for you. But I guess you win then?")
             time.sleep(3)
@@ -112,7 +108,7 @@ if choice == "3":
         if again == "yes":
                 time.sleep(2)
                 os.startfile("menub.py")
-            if again == "no":
+        if again == "no":
                 time.sleep(3)
                 exit()
     if choice1 == "4":
@@ -128,10 +124,10 @@ if choice == "3":
         time.sleep(3)
         print("Role credits!")
         again = input("Do you want to play again? ")
-            if again == "yes":
+        if again == "yes":
                 time.sleep(2)
                 os.startfile("menub.py")
-            if again == "no":
+        if again == "no":
                 time.sleep(3)
                 exit()
 if choice == "2":
