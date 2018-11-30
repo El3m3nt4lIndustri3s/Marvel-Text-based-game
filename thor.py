@@ -115,7 +115,7 @@ if choice1 == "2":
     if choice4 == "1":
         counter += 1
         pp("The town you have chosen is about 4 miles away, it will take you about an hour.",4)
-        pp("You have reached the town and just before you enter a nearby cafe you...",4
+        pp("You have reached the town and just before you enter a nearby cafe you...",4)
         pp("You get hit by a car.",2)
         pp("The person that hit in their car offers you their help.",1)
         pp("""
