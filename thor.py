@@ -7,6 +7,11 @@ def pp (text,pause):
 def po (pause,openfile):
     time.sleep(pause)
     os.startfile(openfile)
+def pcpp (text,choices,text2,pause):
+    print(text)
+    counter(choices)
+    print(text2)
+    time.sleep(pause)
 counter = 0
 pp("Hello you have chosen to play as Thor in this game.",2)
 pp("It is a very special day in Asgard, you have been told that you are going to be crowned king tomorrow.",4)
@@ -14,7 +19,7 @@ pp("""
 1. Accept the news.
 2. Deny the news.
 """,2)
-choice1 = input("What do you do?:")
+choice1 = input("What do you do? ")
 if choice1 == "1":
     counter += 1
     pp("Congratulations on the honour, Asgard will be happy with its new king.",3)
@@ -32,7 +37,7 @@ if choice1 == "1":
         pp("You bellow in rage to see Odin dead, but you don't see the arrow fly from the bow.",4)
         pp("You die. :( ",2)
         pp("Please try again.",2)
-        pp("You survived" ,counter, "choices.",3)
+        pcpp("You survived",counter"choices.",3)
         again = input("Do you want to play again?:")
         if again == "yes":
             po(2,menu.py)
