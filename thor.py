@@ -7,9 +7,9 @@ def pp (text,pause):
 def po (pause,openfile):
     time.sleep(pause)
     os.startfile(openfile)
-def pcpp (text,choices,text2,pause):
+def pcpp (text,counter,text2,pause):
     print(text)
-    counter(choices)
+    int(counter)
     print(text2)
     time.sleep(pause)
 counter = 0
@@ -37,7 +37,7 @@ if choice1 == "1":
         pp("You bellow in rage to see Odin dead, but you don't see the arrow fly from the bow.",4)
         pp("You die. :( ",2)
         pp("Please try again.",2)
-        pcpp("You survived",counter"choices.",3)
+        pcpp("You survived",,"choices.",3)
         again = input("Do you want to play again?:")
         if again == "yes":
             po(2,menu.py)
@@ -62,7 +62,7 @@ if choice1 == "1":
 1. Yes
 2. No
 """,1)
-            pp("You survived" ,counter, "choices.",1)
+            pp("You survived "+str(counter)+" choices.",1)
             again = input("Do you want to play again?:")
             if again == "yes":
                 po(2,menu.py)
@@ -74,7 +74,7 @@ if choice1 == "1":
             pp("You storm the palace but all your troops are killed and your have to face the leader of the army alone.",3)
             pp("You get stab in the stomach and with your last bit of strength you decapitate the army leader.",4)
             pp("You have died knowing Asgard is safe.",3)
-            pp("You survived" ,counter, "choices.",1)
+            pp("You survived "+str(counter)+" choices.",1)
             again = input("Do you want to play again?:")
             if again == "yes":
                 po(2,menu.py)
@@ -85,7 +85,7 @@ if choice1 == "1":
             counter += 1
             pp("All your troops are killed and so are you.",3)
             pp("GAME OVER",2)
-            pp("You survived" ,counter, "choices.",2)
+            pp("You survived "+str(counter)+" choices.",2)
             again = input("Do you want to play again?:")
             if again == "yes":
                 po(2,menu.py)
@@ -99,7 +99,7 @@ if choice1 == "1":
         pp("YOU DIE. THE COFFEE WAS POISONED BY DARK ELVES AS REVENGE.",4)
         pp("At least you have died knowing one good thing...",4)
         pp("The cookie was really good.",4)
-        pp("You survived" ,counter, "choices.",1)
+        pp("You survived "+str(counter)+" choices.",1)
         again = input("Do you want to play again?:")
         if again == "yes":
             po(2,menu.py)
@@ -151,7 +151,7 @@ if choice1 == "2":
                 pp("Then they advance and something hits you in the back of the head.",3)
                 pp("You have been shot.",3)
                 pp("You have died.",3)
-                pp("You survived" ,counter, "choices.",1)
+                pp("You survived "+str(counter)+" choices.",1)
                 again = input("Do you want to play again?:")
                 if again == "yes":
                     po(2,menu.py)
@@ -182,7 +182,7 @@ if choice1 == "2":
                     pp("You look around the area and how hard this is going to be hits you.",4)
                     pp("But thats not the only thing that hits you, something hard to the back of the head.",5)
                     pp("You have died. Nice try.",3)
-                    pp("You survived" ,counter, "choices.",1)
+                    pp("You survived "+str(counter)+" choices.",1)
                     again = input("Do you want to play again?:")
                     if again == "yes":
                         po(2,menu.py)
@@ -203,7 +203,7 @@ if choice1 == "2":
                         pp("You round the corner and there is a sudden sound like a gun shot.",3)
                         pp("You have been shot. :(",3)
                         pp("You have died. Nice try.",3)
-                        pp("You survived" ,counter, "choices.",1)
+                        pp("You survived "+str(counter)+" choices.",1)
                         again = input("Do you want to play again?:")
                         if again == "yes":
                             po(2,menu.py)
@@ -231,7 +231,7 @@ if choice1 == "2":
                             pp("The last thing you remember is a strong smell of coffee.",4)
                             pp("You have been stabed.",2)
                             pp("You have died. Nice try.",3)
-                            pp("You survived" ,counter, "choices.",1)
+                            pp("You survived "+str(counter)+" choices.",1)
                             again = input("Do you want to play again? ")
                             if again == "yes":
                                 po(2,menu.py)
@@ -269,7 +269,7 @@ if choice1 == "2":
                                 pp("You quickly run to the coffee shop and then return.",4)
                                 pp("You pull open the palace doors and the blade of Loki's sceptre is plunged into your chest.",5)
                                 pp("You have died. Nice try.",3)
-                                pp("You survived" ,counter, "choices.",1)
+                                pp("You survived "+str(counter)+" choices.",1)
                                 again = input("Do you want to play again? ")
                                 if again == "yes":
                                     po(2,menu.py)
@@ -286,7 +286,7 @@ if choice1 == "2":
                                 pp("You and Loki are pulled over the edge and you are holding loki from the infinite abyss.",3)
                                 pp("You start to lift loki up to the edge but then suddenly... he lets go.",3)
                                 pp("You have completed the game. Well done!!",3)
-                                pp("You survived" ,counter, "choices.",1)
+                                pp("You survived "+str(counter)+" choices.",1)
                                 again = input("Do you want to play again? ")
                                 if again == "yes":
                                     po(2,menu.py)
@@ -319,7 +319,7 @@ if choice1 == "2":
                 pp("Then they advance and something hits you in the back of the head.",3)
                 pp("You have been shot.",3)
                 pp("You have died.",3)
-                pp("You survived" ,counter, "choices.",1)
+                pp("You survived "+str(counter)+" choices.",1)
                 again = input("Do you want to play again?:")
                 if again == "yes":
                     po(2,menu.py)
@@ -335,7 +335,7 @@ if choice1 == "2":
                 pp("Then they advance and something hits you in the back of the head.",3)
                 pp("You have been shot.",3)
                 pp("You have died.",3)
-                pp("You survived" ,counter, "choices.",1)
+                pp("You survived "+str(counter)+" choices.",1)
                 again = input("Do you want to play again?:")
                 if again == "yes":
                     po(2,menu.py)
@@ -350,7 +350,7 @@ if choice1 == "2":
         pp("Suddennly there is a loud crash, you whip around and there is a man standing with a gun...",4)
         pp("Without warning he pulls the trigger.",3)
         pp("There was nothing you could have done. You are dead.",3)
-        pp("You survived" ,counter, "choices.",1)
+        pp("You survived "+str(counter)+" choices.",1)
         again = input("Do you want to play again????:")
         if again == "yes":
             po(2,menu.py)

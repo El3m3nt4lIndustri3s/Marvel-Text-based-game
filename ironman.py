@@ -146,16 +146,20 @@ if choice == "3":
 1. Decaf.
 2. Non Decaf.
 """,1)
-    choicecoffee = input("")
-    pp("You grab a mug and turn back to the coffee machine.",1)
-    pp("You die. :(",1)
-    pp("You were hit in the face with boiling hot coffee.",1)
-    pp("The last through you know is the smell of strong coffee.",1)
-    pp("Please try again.",1)
-    pp("You survived "+str(counter)+" choices.",1)
-    again = input("Do you want to play again? ")
-    if again == "yes":
-        po(1,"menu.py")
-    if again == "no":
-        time.sleep(2)
-        exit()
+    choicecoffee = input("Please choose: ")
+    if choicecoffee == "1":
+        pp("You grab a mug and turn back to the coffee machine.",1)
+        pp("You die. :(",1)
+        pp("You were hit in the face with boiling hot coffee.",1)
+        pp("The last through you know is the smell of strong coffee.",1)
+        pp("Please try again.",1)
+        pp("You survived "+str(counter)+" choices.",1)
+        again = input("Do you want to play again? ")
+        if again == "yes":
+            po(1,"menu.py")
+        if again == "no":
+            time.sleep(2)
+            exit()
+    if choicecoffee == "2":
+        pp("You grab your mug and turn back to the machine.",2)
+        pp("You enjoy your coffee and return to your computer (top of the range).",2)
