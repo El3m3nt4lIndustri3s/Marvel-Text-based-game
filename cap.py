@@ -114,7 +114,7 @@ if choice == "3":
                 time.sleep(3)
                 exit()
 if choice == "2":
-    pp("You just stand there and grab some  more popcorn and wait for it to end. ",3)
+    pp("You just stand there and grab some  more popcorn and wait for it to end.",3)
     pp("Out of the corner of his eyes he sees you standing there. You know what you've got your self into, Like the look he gives you....",6)
     pp("With a burning rage he punch your face and then kick you where it hurts. ",2)
     pp("He continues to beat you up and finally throw you over to the bins. Out of the corner of your eyes you see a bin lid. What do you do...",3)
@@ -125,14 +125,14 @@ if choice == "2":
     bin_lid=input("Hint:use the bin ")
     if bin_lid=="2":
         pp("You Test your might by punching him in the face and he goes down! ",2)
-        pp("For about 2 seconds and then get up again and goes for the attack",2)
-        pp("you have 5 seconds to react",2)
-        print("""
+        pp("For about 2 seconds and then get up again and goes for the attack.",2)
+        pp("you have 5 seconds to react.",2)
+        pp("""
            1.Go on the attack
            2.GTFO of there
            3.Block with the bin lid
            4.Wait 5 seconds just to see what will happen
-           """)
+           """,3)
         AOT=input("What do you do hero? ")
         time.sleep(5)
         pp("He punch you in the face then you head get caved in.",3)
@@ -145,10 +145,15 @@ if choice == "2":
                 time.sleep(3)
                 exit()      
         if AOT=="1":
-            pp("You go to punch him in the face but he hit you first",3)
-            pp("You get up again and he kick you in the leg and you go down again",3)
-            pp("You get up one more time and you hock punch him in the jaw and he goes down.",)
-            pp("")
+            pp("You go to punch him in the face but he hit you first.",3)
+            pp("You get up again and he kick you in the leg and you go down again.",3)
+            pp("You get up one more time and you hock punch him in the jaw and he goes down.",2)
+            pp("Blood goes everywhere and everything around shakes.",3)
+            pp("His friends come round the corner and see the blood for the guy you just kill and the other dead person.",4)
+            pp("They run for there lives and you jump off into space.",30)
+            pp("You acturely got hit by a car and so did the other guy because you punch him again then he tackled you into the road and you both died.",3)
+            pp("YOU ARE DIE!",3)
+            pp("GET GOOD SCRUB!!!",3)
         if AOT=="2":
             pp("")
         if AOT=="3":
