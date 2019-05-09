@@ -31,6 +31,7 @@ if choice == "3":
 """,3)
     choice1 = input("What to do" )
     if choice1 == "1":
+        counter += 1
         pp("You sprint down the road back to the theatre but you are to late",3)
         pp("#FAIL",2)
         pp("You survived", counter, "choices",2)
@@ -42,6 +43,7 @@ if choice == "3":
             time.sleep(3)
             exit()
     if choice1 == "2":
+        counter += 1
         pp("You turn left and you see some Nazi zombie ...",10)
         pp("Then a car come out of nowhere with spikes covering it and runs all of them over",3)
         pp("You stand there for about 20 seconds",20)
@@ -53,6 +55,7 @@ if choice == "3":
         """)
         door = input("Want do you do ")
         if door == "1":
+            counter += 1
             pp("You read the sign that says it is closed until 2000",3)
             pp("You say to yourself it would be better to be frozen in ice until then.",3)
             pp("It is a hollow victory for you. But I guess you win then?",3)
@@ -66,6 +69,7 @@ if choice == "3":
                 time.sleep(3)
                 exit()
         if door == "2":
+            counter += 1
             pp("You try the handle but it is lock so you read the sign it says it is closed until 2000",3)
             pp("You say to yourself it would be better to be frozen in ice until then.",3)
             pp("It is a hollow victory for you. But I guess you win then?",3)
@@ -79,6 +83,7 @@ if choice == "3":
                 time.sleep(3)
                 exit()
     if choice1 == "3":
+        counter += 1
         pp("You go to the right because the right is always right",2)
         pp("You walk down the street and it looks like there was a zombie apocalypse there.",3)
         pp("You say to yourself that it is quiet... too quiet...",10)
@@ -100,6 +105,7 @@ if choice == "3":
                 time.sleep(3)
                 exit()
     if choice1 == "4":
+        counter += 1
         pp("You continue going straight ahead.",2)
         pp("You think of all the adventures that you could have gone on if you help that guy.",3)
         pp("You think of your friends and you think of the girl of your dream being there.",3)
@@ -114,6 +120,7 @@ if choice == "3":
                 time.sleep(3)
                 exit()
 if choice == "2":
+    counter += 1
     pp("You just stand there and grab some  more popcorn and wait for it to end.",3)
     pp("Out of the corner of his eyes he sees you standing there. You know what you've got your self into, Like the look he gives you....",6)
     pp("With a burning rage he punch your face and then kick you where it hurts. ",2)
@@ -122,25 +129,27 @@ if choice == "2":
     1. Pick up the bin lid
     2. Try and swing at him
     """,3)
-    bin_lid=input("Hint:use the bin ")
+    bin_lid = input("Hint:use the bin ")
     if bin_lid == "1":
+        counter += 1
         pp("You go to pick up the bin lid but as you grab it he grabs your leg and punches you in the face ",4)
-        pp("""You reach of the "sheild" and just about grab it as he start to pull you back. """,3)
+        pp("You reach of the shield and just about grab it as he starts to pull you back. ",3)
         pp("You hit him with the bin lid and stand up.",3)
-        pp("He get goes to punch you and you block it but you get sent backwards with a great amount of forces.",3)
+        pp("He get goes to punch you and you block it but you get sent backward with a great amount of force.",3)
         pp("At that moment your friend bucky comes round the corner and grabs the guy and pick him up. He says why don't you pick on someone your own size. and throw him to the floor",3)
         pp("The guy get up and runs away and bucky askes you if you are all right.",3)
-        chiose_yes==input("what do you say.")
+        chiose_yes = input("what do you say.")
         pp("""
         1.yes 
         2.no
-        3.I just had to restart like 5 time because I made a wrong disitions
+        3.I just had to restart like 5 times because I made a wrong decisions
         """)
-        if choice_yes=="2":
+        if choice_yes == "2":
+            counter += 1
             pp("You say no and tell bucky that your head hurts and you might need to go to the hospital",3)
-            pp("bucky says to you to go and join the army",3)
-            pp("you say that would be an great I deer",3)
-            pp("You fall on the floor and start to incohearantly ramble about the endgame.",3)
+            pp("Bucky says to you to go and join the army",3)
+            pp("you say that would be a great I deer",3)
+            pp("You fall on the floor and start to incoherently ramble about the endgame.",3)
             pp("At that moment bucky turned to dust.",3)
             pp("The snap just happen and you in the endgame now.",3)
             pp("Then you die.",4)
@@ -151,18 +160,20 @@ if choice == "2":
             if again == "no":
                 time.sleep(3)
                 exit()
-        if choice_yes=="3"
+        if choice_yes == "3":
+            print("THIS GAY")
     if bin_lid == "2":
+        counter += 1
         pp("You Test your might by punching him in the face and he goes down! ",2)
         pp("For about 2 seconds and then get up again and goes for the attack.",2)
         pp("you have 5 seconds to react.",2)
         pp("""
-           1.Go on the attack
+           1. Go on the attack
            2.GTFO of there
            3.Block with the bin lid
-           4.Wait 5 seconds just to see what will happen
+           4. Wait 5 seconds just to see what will happen
            """,3)
-        AOT=input("What do you do hero? ")
+        AOT = input("What do you do hero? ")
         time.sleep(5)
         if again == "yes":
                 time.sleep(2)
@@ -170,20 +181,22 @@ if choice == "2":
         if again == "no":
                 time.sleep(3)
                 exit()      
-        if AOT=="1":
+        if AOT == "1":
+            counter += 1
             pp("You go to punch him in the face but he hit you first.",3)
-            pp("You get up again and he kick you in the leg and you go down again.",3)
+            pp("You get up again and he kicks you in the leg and you go down again.",3)
             pp("You get up one more time and you hock punch him in the jaw and he goes down.",2)
             pp("Blood goes everywhere and everything around shakes.",3)
             pp("His friends come round the corner and see the blood for the guy you just kill and the other dead person.",4)
             pp("They run for there lives and you jump off into space.",30)
-            pp("You acturely got hit by a car and so did the other guy because you punch him again then he tackled you into the road and you both died.",3)
+            pp("You actually got hit by a car and so did the other guy because you punch him again when he tackled you into the road and you both died.",3)
             pp("YOU ARE DIE!",3)
             pp("GET GOOD SCRUB!!!",3)
-        if AOT=="2":
-            pp("You go to run away from there and push the guy to the ground to ensure your escape for there",3)
-            pp("But as you get out of there one of his friends grabs you throws you backwards",3)
-            pp("AT THAT MOMENT AN ASTORD HITS YOU AND EVERONE DIES",3)
+        if AOT == "2":
+            counter += 1
+            pp("You go running away from there and push the guy to the ground to ensure your escape for there",3)
+            pp("But as you get out of there one of his friends grabs you throws you backward",3)
+            pp("AT THAT MOMENT AN ASTEROID HITS YOU AND EVERYONE DIES",3)
             again = input("Do you want to play again? ")
             if again == "yes":
                 time.sleep(2)
@@ -191,12 +204,13 @@ if choice == "2":
             if again == "no":
                 time.sleep(3)
                 exit() 
-        if AOT=="3":
-            pp("You use the bin lid to block his next attack and hit him in the face with it 4 time befor you fall over",3)
+        if AOT == "3":
+            counter += 1
+            pp("You use the bin lid to block his next attack and hit him in the face with it 4 times before you fall over",3)
             pp("AT that moment your friend bucky walk down the ally way and see what is happening.",5)
-            pp("The guy pushes you the ground and buckey runs and to wards you.",10)
-            PP("Suddenly a boomtube and another strange portal appear and THANOS and DARKSIDE walk through them and all hell brakes out.",3)
-            pp("You get disintergrated by the omga lazer beams.",1)
+            pp("The guy pushes you the ground and Buckey runs and towards you.",10)
+            PP("Suddenly a boom tube and another strange portal appear and THANOS and DARKSIDE walk through them and all hell brakes out.",3)
+            pp("You get disintegrated by the omega laser beams.",1)
             pp("You never stood a chance!",3)
             again = input("Do you want to play again? ")
             if again == "yes":
@@ -212,7 +226,8 @@ if choice == "2":
             if again == "no":
                 time.sleep(3)
                 exit() 
-        if AOT=="4":
+        if AOT == "4":
+            counter += 1
             pp("You wait five seconds",5)
             pp("He goes to punch you then....",5)
             pp("He punch you in the face then you head get caved in.",3)
@@ -225,6 +240,7 @@ if choice == "2":
                 time.sleep(3)
                 exit()      
 if choice == "1":
+     counter += 1
      pp("You run towards the guy and shout stop.",2)
      pp("He turns around a gives you the LOOK....",6)
      pp("With a burning rage he punch your face and then kick you where it hurts. ",2)
