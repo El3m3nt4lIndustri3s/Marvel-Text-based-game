@@ -123,7 +123,36 @@ if choice == "2":
     2. Try and swing at him
     """,3)
     bin_lid=input("Hint:use the bin ")
-    if bin_lid=="2":
+    if bin_lid == "1":
+        pp("You go to pick up the bin lid but as you grab it he grabs your leg and punches you in the face ",4)
+        pp("""You reach of the "sheild" and just about grab it as he start to pull you back. """,3)
+        pp("You hit him with the bin lid and stand up.",3)
+        pp("He get goes to punch you and you block it but you get sent backwards with a great amount of forces.",3)
+        pp("At that moment your friend bucky comes round the corner and grabs the guy and pick him up. He says why don't you pick on someone your own size. and throw him to the floor",3)
+        pp("The guy get up and runs away and bucky askes you if you are all right.",3)
+        chiose_yes==input("what do you say.")
+        pp("""
+        1.yes 
+        2.no
+        3.I just had to restart like 5 time because I made a wrong disitions
+        """)
+        if choice_yes=="2":
+            pp("You say no and tell bucky that your head hurts and you might need to go to the hospital",3)
+            pp("bucky says to you to go and join the army",3)
+            pp("you say that would be an great I deer",3)
+            pp("You fall on the floor and start to incohearantly ramble about the endgame.",3)
+            pp("At that moment bucky turned to dust.",3)
+            pp("The snap just happen and you in the endgame now.",3)
+            pp("Then you die.",4)
+            time.sleep(5)
+            if again == "yes":
+                time.sleep(2)
+                os.startfile("menub.py")
+            if again == "no":
+                time.sleep(3)
+                exit()
+        if choice_yes=="3"
+    if bin_lid == "2":
         pp("You Test your might by punching him in the face and he goes down! ",2)
         pp("For about 2 seconds and then get up again and goes for the attack.",2)
         pp("you have 5 seconds to react.",2)
@@ -135,9 +164,6 @@ if choice == "2":
            """,3)
         AOT=input("What do you do hero? ")
         time.sleep(5)
-        pp("He punch you in the face then you head get caved in.",3)
-        pp("You suck at life and are dead",2)
-        again = input("Do you want to play again? ")
         if again == "yes":
                 time.sleep(2)
                 os.startfile("menub.py")
@@ -155,9 +181,37 @@ if choice == "2":
             pp("YOU ARE DIE!",3)
             pp("GET GOOD SCRUB!!!",3)
         if AOT=="2":
-            pp("")
+            pp("You go to run away from there and push the guy to the ground to ensure your escape for there",3)
+            pp("But as you get out of there one of his friends grabs you throws you backwards",3)
+            pp("AT THAT MOMENT AN ASTORD HITS YOU AND EVERONE DIES",3)
+            again = input("Do you want to play again? ")
+            if again == "yes":
+                time.sleep(2)
+                os.startfile("menub.py")
+            if again == "no":
+                time.sleep(3)
+                exit() 
         if AOT=="3":
-            pp("")
+            pp("You use the bin lid to block his next attack and hit him in the face with it 4 time befor you fall over",3)
+            pp("AT that moment your friend bucky walk down the ally way and see what is happening.",5)
+            pp("The guy pushes you the ground and buckey runs and to wards you.",10)
+            PP("Suddenly a boomtube and another strange portal appear and THANOS and DARKSIDE walk through them and all hell brakes out.",3)
+            pp("You get disintergrated by the omga lazer beams.",1)
+            pp("You never stood a chance!",3)
+            again = input("Do you want to play again? ")
+            if again == "yes":
+                time.sleep(2)
+                os.startfile("menub.py")
+            if again == "no":
+                time.sleep(3)
+                exit() 
+            again = input("Do you want to play again? ")
+            if again == "yes":
+                time.sleep(2)
+                os.startfile("menub.py")
+            if again == "no":
+                time.sleep(3)
+                exit() 
         if AOT=="4":
             pp("You wait five seconds",5)
             pp("He goes to punch you then....",5)
@@ -170,9 +224,9 @@ if choice == "2":
             if again == "no":
                 time.sleep(3)
                 exit()      
-    if choice == "1":
-        pp("You run towards the guy and shout stop.",2)
-        pp("He turns around a gives you the LOOK....",6)
-        pp("With a burning rage he punch your face and then kick you where it hurts. ",2)
-        pp("He continues to beat you up and finally throw you over to the bins. Out of the corner of your eyes you see a bin lid. What do you do...",3)
-        choice1 = input("you know what to do")
+if choice == "1":
+     pp("You run towards the guy and shout stop.",2)
+     pp("He turns around a gives you the LOOK....",6)
+     pp("With a burning rage he punch your face and then kick you where it hurts. ",2)
+     pp("He continues to beat you up and finally throw you over to the bins. Out of the corner of your eyes you see a bin lid. What do you do...",3)
+     choice1 = input("you know what to do")
