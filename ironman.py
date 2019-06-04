@@ -1,4 +1,4 @@
-#Ironman.py game file
+#Ironman.py game file #flywheel master race
 import time
 import os
 def pp (text,pause):
