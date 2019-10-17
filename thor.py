@@ -37,7 +37,7 @@ if choice1 == "1":
         pp("You bellow in rage to see Odin dead, but you don't see the arrow fly from the bow.",4)
         pp("You die. :( ",2)
         pp("Please try again.",2)
-        pcpp("You survived",,"choices.",3)
+        pcpp("You survived",counter,"choices.",3)
         again = input("Do you want to play again?:")
         if again == "yes":
             po(2,menu.py)
