@@ -12,8 +12,15 @@ def psp (text,score,pause):
     print(counter)
     time.sleep(pause)
 counter = 0
-pp("Loading...",5)
-pp("Loading...",5)
+pp("Loading.",1)
+pp("Loading..",1)
+pp("Loading...",1)
+pp("Loading.",1)
+pp("Loading..",1)
+pp("Loading...",1)
+pp("Loading.",1)
+pp("Loading..",1)
+pp("Loading...",1)
 pp("You walk out of the theatre and feel like there is nothing to do, and you start walking down the road.",3)
 pp("As you start walking down the road you see someone getting mugged and beaten up. You know what to do! Right?",3)
 pp("""
@@ -104,13 +111,13 @@ THE ANTI-MONITOR,
 BRANIAC,
 DOOMSDAY,
 AND
-STEPPENWOLF
+STEPPENWOLF.
 """,12)
             pp("They are all playing snap under a lamp.",4)
             pp("They all turn their heads slowly and look at you.",4)
             pp("One thought goes your mind...",4)
             pp("At that moment he know he f**ked up.",3)
-            pp("You die.",2)
+            pp("You are coimpletely obliterated.",2)
             psp("You survived this many choices: ", counter, 2)
             again = input("Do you want to play again? ")
             if again == "yes":
@@ -176,7 +183,7 @@ Now and forever more.
 if choice == "2":
     counter += 1
     pp("You just stand there and grab some  more popcorn and wait for it to end.",3)
-    pp("Out of the corner of his eyes he sees you standing there. You know what you've got your self into, Like the look he gives you...",6)
+    pp("Out of the corner of his eyes he sees you standing there. You know what you've got your self into, by the look he gives you...",6)
     pp("With a burning rage he punch your face and then kick you where it hurts.",2)
     pp("He continues to beat you up and finally throw you over to the bins. Out of the corner of your eyes you see a bin lid. What do you do...",3)
     pp("""
@@ -190,23 +197,26 @@ if choice == "2":
         pp("You reach of the shield and just about grab it as he starts to pull you back.",3)
         pp("You hit him with the bin lid and stand up.",3)
         pp("He get goes to punch you and you block it but you get sent backward with a great amount of force.",3)
+        pp("He then says in time you will know what it is like to lose...",3)
         pp("At that moment your friend bucky comes round the corner and grabs the guy and pick him up. He says why don't you pick on someone your own size.",6)
         pp("The guy runs away and Bucky askes you if you are all right.",3)
         choice_yes = input("What do you say. ")
         pp("""
 1. Yes 
 2. No
-3. I just had to restart like 5 times because I made a wrong decisions.
+3. I just had to restart like 5 times because I made the wrong decisions.
+4.F*** off
 """,3)
         if choice_yes == "2":
             counter += 1
             pp("You say no and tell bucky that your head hurts and you might need to go to the hospital.",3)
             pp("Bucky says to you to go and join the army.",3)
             pp("You say that would be a great I guess.",3)
-            pp("You fall on the floor and start to incoherently rambling about the endgame.",3)
+            pp("You fall on the floor and start to incoherently rambling about something.",3)
             pp("At that moment Bucky turned to dust.",3)
-            pp("The snap just happened and you in the endgame now.",3)
+            pp("The snap just happened and you're in the endgame now.",3)
             pp("Then you die.",4)
+            pp("And so does half the universe",3)
             time.sleep(5)
             if again == "yes":
                 time.sleep(2)
@@ -215,7 +225,8 @@ if choice == "2":
                 time.sleep(3)
                 exit()
         if choice_yes == "3":
-            print("THIS GAY.")
+            pp("Bucky then ask you what you are talking about .",1)
+        if choice_yes 
     if bin_lid == "2":
         counter += 1
         pp("You test your might by punching him in the face and he goes down!",2)
