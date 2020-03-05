@@ -24,3 +24,4 @@ pp("""
 2. No, why would I?
 """,5.10)
 choice1 = input("What do you do? ")
+if choice1 = "1":
