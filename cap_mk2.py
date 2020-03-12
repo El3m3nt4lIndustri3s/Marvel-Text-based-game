@@ -11,8 +11,7 @@ def po (pause, openfile):
     os.startfile(openfile)
 def pcpp (text, counter, text2, pause):
     print(text)
-    int(counter)
-    print(text2)
+    print(str(counter))
     time.sleep(pause)
 counter = 0
 
@@ -24,4 +23,22 @@ pp("""
 2. No, why would I?
 """,5.10)
 choice1 = input("What do you do? ")
-if choice1 = "1":
+if choice1 == "1":
+    counter =+ 1
+    pp("Okay.",2)
+    pcp("You survived this many choices: ", counter, 3)
+    again = input("Do you want to play again?: ")
+    if again == "yes":
+        po(2, menu.py)
+    if again == "no":
+        time.sleep(3)
+        exit()
+if choice1 == "2":
+    pp("So then, you have decided not join the army.", 3)
+    pp("""
+1. Go home.
+2. Go to the cinema.
+3. Go get a coffee.
+""", 3)
+    choice2 = input("What do you want to do now? ")
+    
